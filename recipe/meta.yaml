@@ -1,6 +1,6 @@
 {% set name = "help2man" %}
-{% set version = "1.47.17" %}
-{% set sha256 = "da3a35c50b1e1f8c8fa322d69fa47c9011ce443a8fb8d1d671b1f01b8b0008eb" %}
+{% set version = "1.48.5" %}
+{% set sha256 = "6739e4caa42e6aed3399be4387ca79399640967334e91728863b8eaa922582be" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
     - 0001-Fix-shebang-in-face-of-short-limits.patch
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
