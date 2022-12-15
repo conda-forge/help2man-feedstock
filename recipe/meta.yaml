@@ -1,6 +1,6 @@
 {% set name = "help2man" %}
-{% set version = "1.49.2" %}
-{% set sha256 = "9e2e0e213a7e0a36244eed6204d902b6504602a578b6ecd15268b1454deadd36" %}
+{% set version = "1.49.3" %}
+{% set sha256 = "4d7e4fdef2eca6afe07a2682151cea78781e0a4e8f9622142d9f70c083a2fd4f" %}
 
 package:
   name: {{ name|lower }}
